@@ -1651,7 +1651,7 @@ static VOID RT5592_AsicAntennaDefaultReset(
 {
 		pAntenna->word = 0;
 		pAntenna->field.RfIcType = RFIC_5592;
-		pAntenna->field.TxPath = 2;
+		pAntenna->field.TxPath = 1;
 		pAntenna->field.RxPath = 2;
 }
 
